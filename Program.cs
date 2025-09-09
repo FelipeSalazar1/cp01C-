@@ -28,6 +28,10 @@ internal static class Program
 
         Console.WriteLine("\n2. Testando CalculadoraBasica (SWITCH)...");
         Console.WriteLine(CalculadoraBasica(10, 5, '+'));
+        Console.WriteLine(CalculadoraBasica(10, 5, '-'));
+        Console.WriteLine(CalculadoraBasica(10, 5, '*'));
+        Console.WriteLine(CalculadoraBasica(10, 5, '/'));
+        Console.WriteLine(CalculadoraBasica(10, 5, '!!!'));
 
         Console.WriteLine("\n3. Testando ValidarIdade (IF/ELSE)...");
         Console.WriteLine(ValidarIdade(25));
